@@ -1,0 +1,46 @@
+
+a{
+    text-decoration: none;
+    display:inline-block;
+}
+
+.alignCenter{
+    text-align:center;
+}
+
+.alignLeft{
+    text-align:left;
+}
+.container{
+    width:1090px;
+    margin:0 auto;
+}
+.container-md{
+    width:1185px;
+    margin:0 auto;
+}
+
+.row,
+.row::after,
+.row::before{
+    display:table;
+    width:100%;
+    clear:both;
+    margin:25px;
+}
+.col-12, .col-6, .col-4, .col-3{
+	float:left;
+	padding:0 15px;
+}
+.col-6{
+	width:50%;
+}
+.col-3{
+    width:25%;
+}
+.col-12{
+    width:100%;
+}
+.col-4{
+    width:(400% / 12);
+}
